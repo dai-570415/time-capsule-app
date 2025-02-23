@@ -6,13 +6,11 @@
 
 :root {
   --foreground: #fff;
-  --background: url(../public/background.jpg);
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
     --foreground: #fff;
-    --background: url(../public/background.jpg);
   }
 }
 
@@ -37,7 +35,6 @@ body {
   font-family: 'EB Garamond', serif;
   min-height: 100vh;
   color: var(--foreground);
-  background: var(--background);
   background-size: cover;
   background-repeat: no-repeat;
 }

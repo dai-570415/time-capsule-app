@@ -13,7 +13,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="ja">
-      <body>
+      <body style={{ backgroundImage: "url('/background.jpg')" }}>
         <main className="flex flex-col min-h-screen justify-center">
           {children}
         </main>
