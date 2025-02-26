@@ -19,7 +19,8 @@ export default function ConfirmationPage() {
                     <h1 className="mb-6 text-sm">Time Capsule</h1>
                     <h2 className="text-3xl leading-[1.4] mb-6">メッセージを<br />保存しました</h2>
                     <p className="text-sm leading-[1.6] mb-8">
-                        あなたのメッセージは1年間封印されました。1年後にアプリを開くと、メッセージを読むことができます。
+                        あなたのメッセージは1年間封印されました。1年後にアプリを開くと、メッセージを読むことができます。<br />
+                        ※注. デモ用なので1分後にメッセージが見られます。
                     </p>
                     <Link href="/view" className="block text-center text-sm bg-white text-green-500 my-6 px-6 py-3 rounded-full hover:bg-green-500 hover:text-white transition-colors">
                         1年後に確認できます

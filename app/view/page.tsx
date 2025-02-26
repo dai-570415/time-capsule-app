@@ -75,6 +75,9 @@ export default function ViewPage() {
                                 <p className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center text-sm text-white w-full p-2 border bg-red-500">1年後に確認できます</p>
                                 <img src="/time-capsule.webp" className="block w-64 mx-auto mb-8" alt="" />
                             </div>
+                            <p className="text-sm leading-[1.6] mb-8">
+                                ※注. デモ用なので1分後にメッセージが見られます。
+                            </p>
                             <Link
                                 href="/"
                                 className="text-center text-sm text-white hover:border-b hover:py-1"

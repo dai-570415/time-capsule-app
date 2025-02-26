@@ -50,6 +50,9 @@ export default function WritePage() {
                             className="block text-center text-sm text-white bg-red-500 w-full mx-auto mb-6 px-6 py-3 rounded-full hover:text-red-500 hover:bg-white transition-colors">
                             メッセージを保存
                         </button>
+                        <p className="text-sm leading-[1.6] mb-8">
+                            ※注. デモ用なので1分後にメッセージが見られます。
+                        </p>
                         <Link
                             href="/"
                             className="text-center text-sm text-white hover:border-b hover:py-1"

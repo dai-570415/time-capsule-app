@@ -30,7 +30,8 @@ export default function Home() {
           <p className="text-sm leading-[1.6] mb-8">
             1年後の自分に向けてメッセージを<br className="sp" />書いてみませんか？<br />
             書いたメッセージは1年間封印され、<br />
-            1年後にアプリを開くと読むことができます。
+            1年後にアプリを開くと読むことができます。<br />
+            ※注. デモ用なので1分後にメッセージが見られます。
           </p>
           <Link
             href="/write"
